@@ -41,7 +41,7 @@ h2 {
     font-size: 1.45rem;
 }
 article > p {
-    margin: 0.75rem;
+    margin: 0.25rem;
 }
 footer {
     display: inline-block;
@@ -59,6 +59,10 @@ a {
 a:hover {
     color: darkred;
     text-decoration: none;
+}
+.icon {
+    width: 2rem;
+    height: 2rem;
 }
 @media screen and (max-width: 767px) {
     .container {
