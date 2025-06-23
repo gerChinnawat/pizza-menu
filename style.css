@@ -13,22 +13,32 @@ body {
     background-color: darksalmon;
     max-width: 480px;
     width: 30svw;
+    height: 95svh;
     text-align: center;
     padding-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 article.list {
     display: flex;
     justify-content: space-between;
     padding-left: 0.75rem;
     padding-right: 0.75rem;
-    font-size: 1rem;
+    font-size: 1.25rem;
 }
 hr {
     border-color: salmon salmon;
     border-width: 2px;
+    width: 90%;
+}
+h1 {
+    margin-bottom: 0.5rem;
+    font-size: 2rem;
 }
 h2 {
     margin-bottom: 0.5rem;
+    font-size: 1.45rem;
 }
 article > p {
     margin: 5px;
