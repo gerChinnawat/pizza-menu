@@ -1,0 +1,57 @@
+* {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+body {
+    background-image: url("assets/pizza-background.jpg");
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem;
+}
+.container {
+    background-color: darksalmon;
+    max-width: 480px;
+    width: 30svw;
+    text-align: center;
+    padding-bottom: 1rem;
+}
+article.list {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+    font-size: 1rem;
+}
+hr {
+    border-color: salmon salmon;
+    border-width: 2px;
+}
+h2 {
+    margin-bottom: 0.5rem;
+}
+article > p {
+    margin: 5px;
+}
+footer {
+    display: inline-block;
+    font-size: 1rem;
+}
+header > p {
+    font-style: italic;
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+a:hover {
+    color: darkred;
+    text-decoration: none;
+}
+@media screen and (max-width: 767px) {
+    .container {
+        width: 100svw;
+        height: 95svh;
+        margin: 0.25rem;
+    }
+}
