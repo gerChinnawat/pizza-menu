@@ -7,17 +7,17 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 0.5rem;
+    height: 100svh;
 }
 .container {
     background-color: darksalmon;
-    min-width: 480px;
-    width: 3svw;
-    padding-bottom: 1rem;
+    max-width: 480px;
+    width: 30svw;
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
+    padding-bottom: 1rem;
 }
 article.list {
     display: flex;
@@ -62,8 +62,8 @@ a:hover {
 }
 @media screen and (max-width: 767px) {
     .container {
-        width: 100svw;
-        height: 95svh;
+        width: 90svw;
+        height: 90svh;
         margin: 0.25rem;
     }
 }
