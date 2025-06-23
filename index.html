@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Pizza Menu</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="icon" type="image/x-icon" href="assets/pizza-favicon.ico">
+        <style>
+            * {
+                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            }
+            body {
+                background-image: url("assets/pizza-background.jpg");
+                margin: 0;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                padding: 20px;
+            }
+            .container {
+                background-color: darksalmon;
+                max-width: 480px;
+                width: 30svw;
+                height: 95svh;
+                text-align: center;
+            }
+            article.list {
+                display: flex;
+                justify-content: space-between;
+                padding-left: 0.75rem;
+                padding-right: 0.75rem;
+                font-size: 1.25rem;
+            }
+            hr {
+                border-color: salmon salmon;
+                border-width: 2px;
+            }
+            h2 {
+                margin-bottom: 0.5rem;
+            }
+            article > p {
+                margin: 10px;
+            }
+            footer {
+                display: inline-block;
+                font-size: 1.25rem;
+            }
+            header > p {
+                font-style: italic;
+            }
+            a {
+                color: black;
+                text-decoration: none;
+            }
+            a:hover {
+                color: darkred;
+                text-decoration: none;
+            }
+            @media screen and (max-width: 767px) {
+                .container {
+                    width: 100svw;
+                    height: 95svh;
+                    margin: 0.25rem;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <header>
+                <h1>Pizza Menu</h1>
+                <p>Est. 1965</p>
+            </header>
+            <hr>
+            <main>
+                <h2>Pizza</h2>
+                <img src="assets/pizza.png" alt="pizza icon" style="width: 40px; height: 40px;">
+                <article class="list">
+                    <p>Bacon and Sausage</p>
+                    <p>129 Baht</p>
+                </article>
+                <article class="list">
+                    <p>Hawaiian</p>
+                    <p>139 Baht</p>
+                </article>
+                <article class="list">
+                    <p>BBQ Chicken</p>
+                    <p>139 Baht</p>
+                </article>
+                <article class="list">
+                    <p>Mushroom</p>
+                    <p>119 Baht</p>
+                </article>
+            </main>
+            <main>
+                <h2>Drinks</h2>
+                <img src="assets/drink.png" alt="drink icon" style="width: 40px; height: 40px;">
+                <article class="list">
+                    <p>Strawberry Soda</p>
+                    <p>20 Baht</p>
+                </article>
+                <article class="list">
+                    <p>Coca-Cola</p>
+                    <p>30 Baht</p>
+                </article>
+                <article class="list">
+                    <p>Water</p>
+                    <p>15 Baht</p>
+                </article>
+            </main>
+            <hr>
+            <footer>
+                <p>Contact us: 02-222-222</p> <a href="https://www.bbc.co.uk/food/pizza">More about Pizza!</a>
+            </footer>
+        </div>
+        
+    </body>
+</html>
