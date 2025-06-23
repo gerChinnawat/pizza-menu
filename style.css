@@ -13,7 +13,6 @@ body {
     background-color: darksalmon;
     min-width: 480px;
     width: 3svw;
-    height: 95svh;
     padding-bottom: 1rem;
     display: flex;
     flex-direction: column;
@@ -37,8 +36,8 @@ h1 {
     font-size: 2rem;
 }
 h2 {
-    margin-top: 0.5rem;
-    margin-bottom: 0.5rem;
+    margin-top: 0.15rem;
+    margin-bottom: 0.15rem;
     font-size: 1.45rem;
 }
 article > p {
@@ -50,7 +49,8 @@ footer {
 }
 header > p {
     font-style: italic;
-    margin: 0.5rem;
+    margin-top: 0.25rem;
+    margin-bottom: 0.25rem;
 }
 a {
     color: black;
